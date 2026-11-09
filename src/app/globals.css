@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Carattere condensato simile a quello delle targhe (Barlow Condensed, licenza OFL). */
+@font-face {
+  font-family: "TargaFont";
+  src: url("/fonts/BarlowCondensed-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: block;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+.plate-font {
+  font-family: "TargaFont", "Arial Narrow", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #0f172a;
+}
